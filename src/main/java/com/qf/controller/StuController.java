@@ -12,6 +12,7 @@ import java.util.List;
 
 /**
  * 学生controller2222222222222222
+ * 学生controller1111111111
  */
 @Controller
 @RequestMapping("/stu")
