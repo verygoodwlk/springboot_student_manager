@@ -18,7 +18,7 @@ public class StuController {
     private IStuService stuService;
 
     /**
-     * 学生列表的控制方法
+     * 学生列表
      * @return
      */
     @RequestMapping("/list")
