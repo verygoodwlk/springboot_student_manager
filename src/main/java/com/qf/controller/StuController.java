@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 /**
- * 学生controller
+ * 学生controller2222222222222222
  */
 @Controller
 @RequestMapping("/stu")
