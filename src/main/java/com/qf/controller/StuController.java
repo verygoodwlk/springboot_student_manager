@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
+/**
+ * 学生controller
+ */
 @Controller
 @RequestMapping("/stu")
 public class StuController {
@@ -22,7 +25,7 @@ public class StuController {
      * @return
      */
     @RequestMapping("/list")
-    public String list(Model model){
+    public String list(Model model) {
         List<Student> students = stuService.list();
         model.addAttribute("students", students);
         return "stulist";
